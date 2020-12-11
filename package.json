@@ -1,0 +1,30 @@
+{
+  "name": "semester_project",
+  "version": "1.0.0",
+  "description": "E-Commerce Semester Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-Waqas-Tahir/Semester_Project.git"
+  },
+  "author": "Waqas Tahir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammad-Waqas-Tahir/Semester_Project/issues"
+  },
+  "homepage": "https://github.com/Muhammad-Waqas-Tahir/Semester_Project#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
