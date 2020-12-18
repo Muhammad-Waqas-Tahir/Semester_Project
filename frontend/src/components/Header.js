@@ -3,8 +3,8 @@ import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Nav, Container } from "react-bootstrap";
 const Header = () => {
   return (
-    <header>
-      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+    <header className="header_part">
+      <Navbar bg="dark" variant="#0f3057" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand href="/">BoxSale</Navbar.Brand>
