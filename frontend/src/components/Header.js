@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 const Header = () => {
   return (
     <header className="header_part">
-      <Navbar bg="dark" variant="#0f3057" expand="lg" collapseOnSelect>
+      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand href="/">BoxSale</Navbar.Brand>
