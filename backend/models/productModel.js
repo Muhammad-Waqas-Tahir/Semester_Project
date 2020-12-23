@@ -8,11 +8,11 @@ const reviewSchema = mongoose.Schema(
     },
     rating: {
       type: Number,
-      // required: true
+      required: true,
     },
     comment: {
       type: String,
-      // required: true
+      required: true,
     },
   },
   {
@@ -24,20 +24,20 @@ const productSchema = mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
-      // required: "",
+      required: "",
       ref: "User",
     },
     name: {
       type: String,
-      // required: true,
+      required: true,
     },
     image: {
       type: String,
-      // required: true,
+      required: true,
     },
     brand: {
       type: String,
-      // required: true,
+      required: true,
     },
     category: {
       type: String,
