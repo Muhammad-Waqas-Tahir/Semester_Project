@@ -16,6 +16,16 @@ const users = [
     email: "shoaibtahir@gmail.com",
     password: bcrypit.hashSync("123456", 10),
   },
+  {
+    name: "Ali",
+    email: "ali@gmail.com",
+    password: bcrypit.hashSync("123456", 10),
+  },
+  {
+    name: "rauf",
+    email: "rauf@example.com",
+    password: bcrypit.hashSync("123456", 10),
+  },
 ];
 
 export default users;
