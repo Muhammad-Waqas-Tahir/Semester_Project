@@ -45,9 +45,3 @@ export const listProductDetails = (id) => async (dispatch) => {
     });
   }
 };
-
-
-
-
-
-
