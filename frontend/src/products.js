@@ -15,7 +15,7 @@ const products = [
   {
     _id: "2",
     name: "iPhone 11 Pro 256GB Memory",
-    image: "/images/phone.jpg",
+    image: "/images/box2.jpg",
     description:
       "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
     brand: "Apple",
@@ -66,6 +66,19 @@ const products = [
   },
   {
     _id: "6",
+    name: "Amazon Echo Dot 3rd Generation",
+    image: "/images/alexa.jpg",
+    description:
+      "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+    brand: "Amazon",
+    category: "Electronics",
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    _id: "7",
     name: "Amazon Echo Dot 3rd Generation",
     image: "/images/alexa.jpg",
     description:
