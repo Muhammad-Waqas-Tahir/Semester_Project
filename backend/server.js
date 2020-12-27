@@ -15,10 +15,6 @@ connectDB();
 const app = express();
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("My app is running");
-});
-
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/orders", orderRoutes);
